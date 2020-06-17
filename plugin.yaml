@@ -1,0 +1,17 @@
+plugin:
+    name: 'yfktn.selfasscovid::lang.plugin.name'
+    description: 'yfktn.selfasscovid::lang.plugin.description'
+    author: YFKTN
+    icon: oc-icon-stethoscope
+    homepage: ''
+permissions:
+    yfktn_selfasscovid_man:
+        tab: 'Self Assesment Covid'
+        label: 'Self Assesment Covid Management'
+navigation:
+    self-ass-covid-menu:
+        label: 'SA COVID19'
+        url: yfktn/selfasscovid/selfassesmentcovid19
+        icon: icon-stethoscope
+        permissions:
+            - yfktn_selfasscovid_man

@@ -1,0 +1,13 @@
+{% if nilaiResiko >= 5 %}
+<div class="alert alert-dismissible fade show alert-danger">
+    <strong>Anda berada dalam resiko tinggi</strong>! (Point nilai resiko >= 5) Segera hubungi petugas kesehatan!
+</div>
+{% elseif nilaiResiko >= 1 %}
+<div class="alert alert-dismissible fade show alert-warning">
+    Anda berada dalam resiko sedang! (Point nilai resiko 1 - 4) Selalu jaga kesehatan dan ikuti protokol COVID.
+</div>
+{% else %}
+<div class="alert alert-dismissible fade show alert-warning">
+    Anda berada dalam level normal. Selalu jaga kesehatan dan ikuti protokol COVID-19.
+</div>
+{% endif %}

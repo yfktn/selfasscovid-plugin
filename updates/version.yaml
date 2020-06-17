@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table yfktn_selfasscovid_'
+    - builder_table_create_yfktn_selfasscovid_.php
+1.0.3:
+    - 'Updated table yfktn_selfasscovid_'
+    - builder_table_update_yfktn_selfasscovid_.php

@@ -1,0 +1,22 @@
+columns:
+    user_id:
+        label: User
+        type: number
+    jawab01:
+        label: 'Jawab 01'
+        type: number
+    jawab02:
+        label: 'Jawab 02'
+        type: number
+    jawab03:
+        label: 'Jawab 03'
+        type: number
+    jawab04:
+        label: 'Jawab 04'
+        type: number
+    jawab05:
+        label: 'Jawab 05'
+        type: number
+    jawab06:
+        label: 'Jawab 06'
+        type: number

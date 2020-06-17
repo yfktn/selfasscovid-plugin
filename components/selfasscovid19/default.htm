@@ -1,0 +1,60 @@
+<div id="success">
+    <form role="form" 
+        id="frmSelfAssCovid19"
+        data-request="{{ __SELF__ }}::onSubmit"
+        data-request-update="'{{ __SELF__ }}::success': '#success'" 
+        data-request-confirm='Lakukan self assesment?'
+        data-request-flash>
+        <div class="card">
+            <h5 class="card-header">Self Assesment Covid 19</h5>
+            <div class="list-group list-group-flush">
+                <div class="list-group-item">
+                    <div class="form-check">
+                        <input type="checkbox" value="1" class="form-check-input" id="jawab01" name="jawab01">
+                        <label class="form-check-label" for="jawab01">Centang bila pernah keluar rumah/tempat umum (pasar, fasyankes, kerumunan
+                            orang, dan lain-lain)!</label>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="form-check">
+                        <input type="checkbox" value="1" class="form-check-input" id="jawab02" name="jawab02">
+                        <label class="form-check-label" for="jawab02">Centang bila pernah menggunakan transportasi umum!</label>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="form-check">
+                        <input type="checkbox" value="1" class="form-check-input" id="jawab03" name="jawab03">
+                        <label class="form-check-label" for="jawab03">Centang bila pernah melakukan perjalanan dinas ke luar kota / internasional! 
+                            (wilayah yang terjangkit/zona merah)</label>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="form-check">
+                        <input type="checkbox" value="1" class="form-check-input" id="jawab04" name="jawab04">
+                        <label class="form-check-label" for="jawab04">Centang bila anda mengikuti kegiatan yang melibatkan orang banyak!</label>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="form-check">
+                        <input type="checkbox" value="5" class="form-check-input" id="jawab05" name="jawab05">
+                        <label class="form-check-label" for="jawab05">Centang bila memiliki riwayat kontak erat dengan orang yang dinyatakan
+                            ODP, PDP, atau konfirm COVID-19 (berjabat tangan, berbicara, berada dalam satu ruangan/ satu rumah)!</label>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="form-check">
+                        <input type="checkbox" value="5" class="form-check-input" id="jawab06" name="jawab06">
+                        <label class="form-check-label" for="jawab06">Centang bila pernah mengalami demam / batuk / pilek / sakit tenggorokan / 
+                            sesak dalam 14 hari terakhir?
+                        </label>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <input type="hidden" value="{{ harusLogin }}" name="harusLogin">
+                    <div id="pesanServerSAC"></div>
+                    <button type="submit" data-attach-loading class="btn btn-primary btn-block">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

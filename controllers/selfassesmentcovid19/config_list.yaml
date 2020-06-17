@@ -1,0 +1,11 @@
+list: $/yfktn/selfasscovid/models/selfasscovid/columns.yaml
+modelClass: Yfktn\SelfAssCovid\Models\SelfAssCovid
+title: SelfAssesmentCovid19
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

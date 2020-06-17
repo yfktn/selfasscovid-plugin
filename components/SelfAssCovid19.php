@@ -11,8 +11,8 @@ class SelfAssCovid19 extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'Self Assesment',
-            'description' => 'Self Assesment form'
+            'name'        => 'Self Assessment',
+            'description' => 'Self Assessment form'
         ];
     }
 

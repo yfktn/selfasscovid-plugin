@@ -1,22 +1,32 @@
 columns:
-    user_id:
-        label: User
-        type: number
+    # user_id:
+    #     label: User
+    #     type: number
+    created_at:
+        label: Waktu Pengisian
+        type: date
+        format: d-m-Y H:i
     jawab01:
-        label: 'Jawab 01'
+        label: 'Score 01'
         type: number
     jawab02:
-        label: 'Jawab 02'
+        label: 'Score 02'
         type: number
     jawab03:
-        label: 'Jawab 03'
+        label: 'Score 03'
         type: number
     jawab04:
-        label: 'Jawab 04'
+        label: 'Score 04'
         type: number
     jawab05:
-        label: 'Jawab 05'
+        label: 'Score 05'
         type: number
     jawab06:
-        label: 'Jawab 06'
+        label: 'Score 06'
         type: number
+    resiko:
+        label: 'Resiko'
+        type: partial
+        sortable: false
+        searchable: false
+        path: ~/plugins/yfktn/selfasscovid/models/selfasscovid/_resiko.htm

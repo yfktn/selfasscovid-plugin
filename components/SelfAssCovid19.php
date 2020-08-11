@@ -45,6 +45,8 @@ class SelfAssCovid19 extends ComponentBase
             } else {
                 $selfAssCovid->user_id = Auth::getUser()->id;
             }
+        } else {
+            $selfAssCovid->user_id = null;
         }
 
         $selfAssCovid->jawab01 = post('jawab01', 0);

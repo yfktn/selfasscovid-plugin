@@ -1,0 +1,11 @@
+<?php 
+$nr = $record->getNilaiResiko();
+?>
+
+<?php if($nr >= 5): ?>
+    <div style="color:red"><strong>Tinggi</strong></div>
+<?php elseif($nr >= 1): ?>
+    <div style="color:greenyellow"><strong>Sedang</strong></div>
+<?php else: ?>
+    <div style="color:green"><strong>Normal</strong></div>
+<?php endif ?>

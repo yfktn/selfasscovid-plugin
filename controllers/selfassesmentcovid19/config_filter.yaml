@@ -1,0 +1,6 @@
+# definisi filter scopes untuk periode
+scopes:
+  created_at:
+    label: Waktu Pengisian
+    type: daterange
+    conditions: created_at >= ':after' AND  created_at <= ':before'
